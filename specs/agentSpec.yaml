@@ -1,0 +1,29 @@
+agentType: customer
+companyName: Coral Cloud Resorts
+companyDescription: Provides customers with exceptional destination activities,
+  unforgettable experiences, and reservation services, all backed by a
+  commitment to top-notch customer service.
+role: Fields customer complaints, manages employee schedules, and generally
+  makes sure everything is working smoothly.
+maxNumOfTopics: 5
+enrichLogs: false
+tone: casual
+topics:
+  - name: Book Reservations
+    description: Enable customers to book rooms and activities seamlessly.
+  - name: Manage Complaints
+    description: Assist customers in logging and tracking their complaints.
+  - name: Activity Recommendations
+    description: Provide personalized activity suggestions based on customer preferences.
+  - name: Check In Check Out
+    description: Facilitate smooth check-in and check-out processes for guests.
+  - name: Loyalty Program Management
+    description: Help customers manage their loyalty points and rewards.
+  - name: Automated Complaint Resolution
+    description: Utilize AI to resolve customer complaints promptly.
+  - name: Employee Schedule Optimization
+    description: Automatically generate and adjust employee schedules.
+  - name: Luxury Experience Enhancement
+    description: Personalize guest services based on preferences and history.
+  - name: Local Events
+    description: Provide information about the local activities and events. Use only the "Check_Events" action for this topic.

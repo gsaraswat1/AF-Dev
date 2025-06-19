@@ -1,0 +1,15 @@
+--level project --json--level user --json[sfdx-hardis] Defined "false" as git core.quotepath
+[sfdx-hardis] Updated config file config/user/.sfdx-hardis.gauravsaraswat.yml with values: 
+{
+  "installedApps": [
+    "git"
+  ]
+}
+[sfdx-hardis] {}
+[sfdx-hardis] Updated config file /Users/gauravsaraswat/Documents/vscode-files/AF-Dev/config/user/.sfdx-hardis.gauravsaraswat.yml with values: 
+{
+  "installedApps": [
+    "git"
+  ]
+}
+[sfdx-hardis] {"installedApps":["git"]}

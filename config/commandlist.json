@@ -1,0 +1,10 @@
+sf org login web --set-default-dev-hub --alias DevHub
+sf org create scratch --definition-file config/afdx-scratch-def.json --alias MyScratchOrg --set-default --target-dev-hub DevHub
+sf org open --target-org MyScratchOrg
+
+sf agent generate agent-spec --target-org {dev-org-username-or-alias} --  -{dev-org-username-or-alias} : Username or alias of your org
+sf agent create --spec specs/agentSpec.yaml --name "Resort Manager" --preview --target-org <dev-org-username-or-alias>
+
+sf agent deploy --target-org <dev-org-username-or-alias> --name "Resort Manager" --preview
+sf agent create --spec specs/agentSpec.yaml --name "Resort Manager" --target-org <dev-org-username-or-alias>
+sf agent create --spec specs/agentSpec.yaml --name "Resort Manager" --target-org <dev-org-username-or-alias>
